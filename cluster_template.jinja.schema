@@ -1,0 +1,11 @@
+required:
+- zone
+
+properties:
+  zone:
+    type: string
+    description: Zone in which the cluster should run.
+  initialNodeCount:
+    type: integer
+    description: Initial number of nodes desired in the cluster.
+    default: 3
